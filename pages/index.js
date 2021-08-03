@@ -13,7 +13,13 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full  flex-1 px-5 md:px-20 text-center">
-        <div className="md:w-1/2 w-full h-96">
+        <div
+          className="mx-auto w-full h-96"
+          style={{
+            width: "650px",
+            height: "650px",
+          }}
+        >
           <iframe
             src="https://my.spline.design/acidsmiley-1c536ffb6a7a438d72bc1c959927bb84/"
             frameBorder="0"
