@@ -5,7 +5,12 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        smileyMobile: "20rem",
+        smileyDesktop: "28.125rem",
+        smileyMobile: "21.25rem",
+      },
+      height: {
+        smileyDesktop: "28.125rem",
+        smileyMobile: "21.25rem",
       },
     },
     fontFamily: {

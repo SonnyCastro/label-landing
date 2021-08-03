@@ -1,7 +1,24 @@
 import Head from "next/head";
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  //choose the screen size
+  const handleResize = () => {
+    if (window.innerWidth < 720) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  };
+
+  // create an event listener
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+  });
+
   return (
     <div className="flex flex-col items-center justify-center bg-primary min-h-screen py-2 ">
       <Head>
@@ -14,20 +31,25 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full  flex-1 px-5 md:px-20 text-center">
-        <div
-          className="mx-auto w-smileyMobile h-96"
-          // style={{
-          //   width: "450px",
-          //   height: "450px",
-          // }}
-        >
-          <iframe
-            src="https://my.spline.design/acidsmiley-1c536ffb6a7a438d72bc1c959927bb84/"
-            frameBorder="0"
-            width="100%"
-            height="100%"
-          ></iframe>
-        </div>
+        {isMobile ? (
+          <div className="mx-auto" style={{ width: "340px", height: "340px" }}>
+            <iframe
+              src="https://my.spline.design/acidsmiley340x340-8f0dbf83a63886734fd3f2f404c6531e/"
+              frameBorder="0"
+              width="100%"
+              height="100%"
+            ></iframe>
+          </div>
+        ) : (
+          <div className="mx-auto " style={{ width: "400px", height: "400px" }}>
+            <iframe
+              src="https://my.spline.design/acidsmiley400x400-2af17c9e7a56fe7b899c177541d469c6/"
+              frameBorder="0"
+              width="100%"
+              height="100%"
+            ></iframe>
+          </div>
+        )}
 
         <div className="max-w-testing ">
           <p className="mt-6 font-Inconsolata font-medium text-6xl ">
