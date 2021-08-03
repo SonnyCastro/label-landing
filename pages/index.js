@@ -16,8 +16,8 @@ export default function Home() {
         <div
           className="mx-auto w-full h-96"
           style={{
-            width: "650px",
-            height: "650px",
+            width: "450px",
+            height: "450px",
           }}
         >
           <iframe
