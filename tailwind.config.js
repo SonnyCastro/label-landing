@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        smileyMobile: "25rem",
+        smileyMobile: "20rem",
       },
     },
     fontFamily: {
