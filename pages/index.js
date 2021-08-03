@@ -16,10 +16,10 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full  flex-1 px-5 md:px-20 text-center">
         <div
           className="mx-auto w-smileyMobile h-96"
-          style={{
-            width: "450px",
-            height: "450px",
-          }}
+          // style={{
+          //   width: "450px",
+          //   height: "450px",
+          // }}
         >
           <iframe
             src="https://my.spline.design/acidsmiley-1c536ffb6a7a438d72bc1c959927bb84/"
