@@ -17,11 +17,10 @@ export default function Home() {
   // create an event listener
   useEffect(() => {
     handleResize();
-    // window.addEventListener("resize", handleResize);
   });
 
   return (
-    <div className="flex flex-col items-center justify-center bg-primary min-h-screen py-2 ">
+    <div className="flex flex-col items-center justify-center bg-primary min-h-screen  ">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -31,7 +30,7 @@ export default function Home() {
         ></link>
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full  flex-1 px-5 md:px-20 text-center">
+      <main className="flex flex-col items-center justify-start w-full flex-1 px-5 md:px-20 text-center">
         {isMobile ? (
           <div className="mx-auto" style={{ width: "340px", height: "340px" }}>
             <iframe
@@ -52,26 +51,19 @@ export default function Home() {
           </div>
         )}
 
-        <div className="max-w-testing ">
-          <p className="mt-6 font-Inconsolata font-medium text-6xl ">
-            Music as usual.
+        <div className="w-full ">
+          <p className=" p-2.5 font-Inconsolata font-medium text-2xl md:text-6xl ">
+            Fair Music Discovery
           </p>
-          <span className="mt-6 font-Inconsolata font-medium text-6xl ">
-            Publishing like never before.
-          </span>
-          <div className="w-3/4 mx-auto m-20 ">
-            <p className="font-Inconsolata font-normal text-4xl">
-              Label is the next big change in the music industry. Through a
-              decentralized, user-owned, crypto-based network, Label’s
-              publishing platform revolutionizes the way we express, share and
-              monetize our thoughts.
-            </p>
-          </div>
-          <div className="flex flex-col space-y-8 mb-20">
-            <button className="cursor-pointer w-80 h-24 mx-auto rounded-3xl bg-black text-white font-Inconsolata font-normal text-5xl">
+          <p className=" w-xs md:w-full p-2.5 mx-auto font-Inconsolata font-normal text-lg md:text-4xl">
+            A new type of music industry built on Ethereum.
+          </p>
+
+          <div className="flex flex-col items-center justify-center">
+            <button className="cursor-pointer m-6 md:m-12 w-40 md:w-72 h-9 md:h-16 mx-auto rounded-3xl bg-black text-white font-Inconsolata font-normal text-base md:text-3xl">
               Sign Up
             </button>
-            <button className="cursor-pointer w-80 h-16 text-4xl mx-auto rounded-xl bg-green text-black font-Inconsolata font-normal">
+            <button className="cursor-pointer w-28 md:w-60 h-6 md:h-16 text-sm md:text-2xl  mx-auto rounded-xl bg-green text-black font-Inconsolata font-normal">
               Learn More
             </button>
           </div>
