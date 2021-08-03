@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-center w-full  flex-1 px-5 md:px-20 text-center">
         <div
-          className="mx-auto w-full h-96"
+          className="mx-auto w-smileyMobile h-96"
           style={{
             width: "450px",
             height: "450px",
@@ -44,7 +45,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col space-y-8 mb-20">
-            <button className="cursor-pointer w-96 h-24 mx-auto rounded-3xl bg-black text-white font-Inconsolata font-normal text-5xl">
+            <button className="cursor-pointer w-80 h-24 mx-auto rounded-3xl bg-black text-white font-Inconsolata font-normal text-5xl">
               Sign Up
             </button>
             <button className="cursor-pointer w-80 h-16 text-4xl mx-auto rounded-xl bg-green text-black font-Inconsolata font-normal">
