@@ -69,7 +69,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center">
             <button
               id="signUpMobile"
-              className="cursor-pointer m-6 md:m-12 w-52 md:w-72 h-9 md:h-16 mx-auto rounded-3xl bg-black text-white font-Inconsolata_Expanded text-base md:text-3xl"
+              className="cursor-pointer m-6 md:m-12 w-52 md:w-72 h-9 md:h-16 mx-auto bg-black text-white font-Inconsolata_Expanded text-base md:text-3xl"
             >
               <strong>Sign Up</strong>
             </button>
