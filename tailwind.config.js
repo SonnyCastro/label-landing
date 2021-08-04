@@ -14,7 +14,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      Inconsolata: ["Inconsolata", "monospace"],
+      Inconsolata_Expanded: ["Inconsolata"],
+      Inconsolata_Regular: ["Inconsolata"],
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),

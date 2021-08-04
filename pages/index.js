@@ -24,10 +24,10 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
+        {/* <link
           href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap"
           rel="stylesheet"
-        ></link>
+        ></link> */}
       </Head>
 
       <main className="flex flex-col items-center justify-start w-full flex-1 px-5 md:px-20 text-center">
@@ -52,18 +52,22 @@ export default function Home() {
         )}
 
         <div className="w-full ">
-          <p className=" p-2.5 font-Inconsolata font-medium text-2xl md:text-6xl ">
+          <p className=" p-2.5 font-Inconsolata_Expanded font-normal text-2xl md:text-6xl ">
             Fair Music Discovery
           </p>
-          <p className=" w-xs md:w-full p-2.5 mx-auto font-Inconsolata font-normal text-lg md:text-4xl">
+
+          <p
+            className=" w-xs md:w-2/4 mx-auto font-Inconsolata_Regular font-normal text-lg"
+            style={{ fontSize: "1.3rem" }}
+          >
             A new type of music industry built on Ethereum.
           </p>
 
           <div className="flex flex-col items-center justify-center">
-            <button className="cursor-pointer m-6 md:m-12 w-40 md:w-72 h-9 md:h-16 mx-auto rounded-3xl bg-black text-white font-Inconsolata font-normal text-base md:text-3xl">
-              Sign Up
+            <button className="cursor-pointer m-6 md:m-12 w-40 md:w-72 h-9 md:h-16 mx-auto rounded-3xl bg-black text-white font-Inconsolata_Expanded text-base md:text-3xl">
+              <strong>Sign Up</strong>
             </button>
-            <button className="cursor-pointer w-28 md:w-60 h-6 md:h-16 text-sm md:text-2xl  mx-auto rounded-xl bg-green text-black font-Inconsolata font-normal">
+            <button className="cursor-pointer w-28 md:w-60 h-6 md:h-11 text-sm md:text-2xl  mx-auto rounded-md bg-green text-black font-Inconsolata_Expanded font-normal">
               Learn More
             </button>
           </div>
