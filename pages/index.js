@@ -52,22 +52,31 @@ export default function Home() {
         )}
 
         <div className="w-full ">
-          <p className=" p-2.5 font-Inconsolata_Expanded font-normal text-2xl md:text-6xl ">
+          <p
+            id="mobile_h1"
+            className=" p-2.5 font-Inconsolata_Expanded font-normal text-2xl md:text-6xl "
+          >
             Fair Music Discovery
           </p>
 
           <p
-            className=" w-xs md:w-2/4 mx-auto font-Inconsolata_Regular font-normal text-lg"
-            style={{ fontSize: "1.3rem" }}
+            id="test"
+            className=" mx-auto font-Inconsolata_Regular font-normal text-lg md:text-xl"
           >
             A new type of music industry built on Ethereum.
           </p>
 
           <div className="flex flex-col items-center justify-center">
-            <button className="cursor-pointer m-6 md:m-12 w-40 md:w-72 h-9 md:h-16 mx-auto rounded-3xl bg-black text-white font-Inconsolata_Expanded text-base md:text-3xl">
+            <button
+              id="signUpMobile"
+              className="cursor-pointer m-6 md:m-12 w-52 md:w-72 h-9 md:h-16 mx-auto rounded-3xl bg-black text-white font-Inconsolata_Expanded text-base md:text-3xl"
+            >
               <strong>Sign Up</strong>
             </button>
-            <button className="cursor-pointer w-28 md:w-60 h-6 md:h-11 text-sm md:text-2xl  mx-auto rounded-md bg-green text-black font-Inconsolata_Expanded font-normal">
+            <button
+              id="learnMobile"
+              className="cursor-pointer w-52 md:w-60 h-6 md:h-11 text-sm md:text-2xl  mx-auto rounded-md bg-green text-black font-Inconsolata_Expanded font-normal"
+            >
               Learn More
             </button>
           </div>
