@@ -16,7 +16,7 @@
     src: url("/fonts/Inconsolata-Regular.ttf") format("truetype");
   }
   @media screen and (max-width: 700px) {
-    #test {
+    #subtitle {
       font-size: 1rem;
       max-width: 17rem;
       line-height: 1.3rem;
@@ -26,21 +26,19 @@
       line-height: 2rem;
     }
     #signUpMobile {
-      width: 12rem;
-      height: 2.625rem;
-      font-size: 1.56rem;
+      width: 18.25rem;
+      height: 3.125rem;
+      font-size: 1.875rem;
+      border-radius: 0.875rem;
     }
     #learnMobile {
-      width: 8.5rem;
-      height: 1.5rem;
-      font-size: 1rem;
+      width: 14.875rem;
+      height: 2.652rem;
+      font-size: 1.563rem;
     }
   }
   #signUpMobile {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
-    border-radius: 2.188rem;
-  }
-  #learnMobile {
-    color: #030609;
+    border-radius: 1.125rem;
   }
 }
