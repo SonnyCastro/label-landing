@@ -56,14 +56,14 @@ export default function Home() {
             id="mobile_h1"
             className=" p-2.5 font-Inconsolata_Expanded font-normal text-2xl md:text-6xl "
           >
-            FAIR MUSIC DISCOVERY
+            FAIR MUSIC CURATION
           </p>
 
           <p
             id="subtitle"
-            className=" mx-auto font-Inconsolata_Regular font-normal text-lg md:text-xl"
+            className=" mx-auto font-Inconsolata_Regular font-normal text-lg md:text-2xl"
           >
-            A new type of music industry built on Ethereum.
+            Decentralized governance for all creators
           </p>
 
           <div className="flex flex-col items-center justify-center">
@@ -71,7 +71,7 @@ export default function Home() {
               id="signUpMobile"
               className="cursor-pointer m-6 md:m-12 w-52 md:w-72 h-9 md:h-16 mx-auto bg-black text-white font-Inconsolata_Expanded text-base md:text-3xl"
             >
-              <strong>Sign Up</strong>
+              <strong>Join Discord</strong>
             </button>
             <button
               id="learnMobile"
