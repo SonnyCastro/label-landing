@@ -33,8 +33,14 @@ export default function Home() {
       <main className="flex flex-col items-center justify-start w-full flex-1 px-5 md:px-20 text-center">
         {isMobile ? (
           <div className="mx-auto" style={{ width: "340px", height: "340px" }}>
-            <iframe
+            {/* <iframe
               src="https://my.spline.design/acidsmiley340x340-8f0dbf83a63886734fd3f2f404c6531e/"
+              frameBorder="0"
+              width="100%"
+              height="100%"
+            ></iframe> */}
+            <iframe
+              src="https://my.spline.design/acidsmiley340x340copy-5119ff882266f2f0e3c6735b82c96232/"
               frameBorder="0"
               width="100%"
               height="100%"
@@ -42,8 +48,14 @@ export default function Home() {
           </div>
         ) : (
           <div className="mx-auto " style={{ width: "400px", height: "400px" }}>
-            <iframe
+            {/* <iframe
               src="https://my.spline.design/acidsmiley400x400-2af17c9e7a56fe7b899c177541d469c6/"
+              frameBorder="0"
+              width="100%"
+              height="100%"
+            ></iframe> */}
+            <iframe
+              src="https://my.spline.design/acidsmiley400x400copy-ceec7b17e6e3fa9ea6a9f9ac0706fcaf/"
               frameBorder="0"
               width="100%"
               height="100%"
